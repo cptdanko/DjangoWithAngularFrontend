@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en" ng-app="tweeterApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Tweeter</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{% static 'angularDemo/css/style.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'angularDemo/css/menu.css' %}"/>
+</head>
+<body>
+<h1 class="leader-h">Tweeter</h1>
+
+<div id='cssmenu'>
+</div>
+
+<div ui-view></div>
+
+<script type="text/javascript" src="/static/angularDemo/lib/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/static/angularDemo/lib/angular.min.js"></script>
+<script type="text/javascript" src="/static/angularDemo/lib/angular-resource.min.js"></script>
+<script type="text/javascript" src="/static/angularDemo/lib/angular-route.min.js"></script>
+<script type="text/javascript" src="/static/angularDemo/lib/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="/static/angularDemo/js/app.js"></script>
+<script type="text/javascript" src="/static/angularDemo/js/controllers.js"></script>
+
+<script type="text/javascript">
+
+
+</script>
+</body>
+</html>
